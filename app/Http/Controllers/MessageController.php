@@ -49,7 +49,7 @@ class MessageController extends Controller
             'message' => $request->message,
             'form' => auth()->user()->id,
             'to' => $request->user_id,
-            'type' => 1 // Assuming type 1 is the correct one for display
+            'type' => 1
         ]);
         broadcast(new MessageSend($message));
         return response()->json($message, 201);
