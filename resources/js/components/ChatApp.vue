@@ -20,7 +20,7 @@
       </div>
       <div class="chat">
         <div class="chat-header clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01_green.jpg" alt="avatar" />
+          <img src="https://static.vecteezy.com/system/resources/previews/043/361/860/non_2x/hand-drawnman-avatar-profile-icon-for-social-networks-forums-and-dating-sites-user-avatar-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-profile-male-symbol-free-vector.jpg" alt="avatar" />
           <div class="chat-about">
             <div class="chat-with">Chat with {{ selectedUserName }}</div>
             <div class="chat-num-messages">{{ messages.length }} messages</div>
@@ -60,7 +60,7 @@ export default {
     return {
       searchTerm: "",
       message: "",
-      defaultAvatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01.jpg",
+      defaultAvatar: "https://static.vecteezy.com/system/resources/previews/043/361/860/non_2x/hand-drawnman-avatar-profile-icon-for-social-networks-forums-and-dating-sites-user-avatar-profile-placeholder-anonymous-user-male-no-photo-web-template-default-user-picture-profile-male-symbol-free-vector.jpg",
       selectedUserName: "",
       currentUser: { id: 1, name: "Olia" },
       selectedUser: null,
