@@ -37,7 +37,7 @@
 </body>
 @if (auth()->check())
     <script>
-        var authuser = 2;
+        var authuser = @JSON(auth()->user())
     </script>
 @endif
 
