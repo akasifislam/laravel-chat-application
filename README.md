@@ -1,4 +1,4 @@
-# Laravel Project Setup
+# Realtime Chat Application Setup
 
 A simple guide to set up the project locally.
 
@@ -9,8 +9,8 @@ Import the database from the database file located inside the project folder, an
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/akasifislam/laravel-chat-application
+cd laravel-chat-application
 ```
 
 ### 2. Install PHP Dependencies
